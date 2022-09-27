@@ -17,9 +17,10 @@ function MyApi(){
 
     return (
       <>
-         <h2>FacultyId:{fac.FacultyId}</h2>,
-         <h2>FacultyName:{fac.FacultyName}</h2>,
-         <h2>FacultyAge:{fac.FacultyAge}</h2>
+         <h4>FacultyId:{fac.FacultyId}</h4>
+         <h4>FacultyName:{fac.FacultyName}</h4>
+         <h4>FacultyAge:{fac.FacultyAge}</h4>
+         <br/>
          </>
          )
   });
